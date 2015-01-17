@@ -38,38 +38,34 @@
 		</div>	
 	</div> <!-- end of logo div -->
 	
-	
 	<div id="slideshow-div" class="rs-slideshow">
      
         <div class="slide-container">
-        <img src="slideshow/images/mallard2.jpg"
-            alt="The first image in a slideshow demo." />
+        <img src="slideshow/images/slide5.jpg"
+            alt="Dock on White Bear Lake"/>
     
      </div>
     <ol class="slides">
         <li>
-            <a href="slideshow/images/sunset.jpg">morzine-2011-a</a>
+            <a href="slideshow/images/slide1.jpg">morzine-2011-a</a>
         </li>
         <li>
-            <a href="slideshow/images/marsh.jpg">morzine-2011-a</a>
+            <a href="slideshow/images/slide2.jpg">morzine-2011-a</a>
         </li>
         <li>
-            <a href="slideshow/images/greatsunrise.jpg">morzine-2011-a</a>
+            <a href="slideshow/images/slide3.jpg">morzine-2011-a</a>
         </li>
         <li>
-            <a href="slideshow/images/lake_boats1.jpg">morzine-2011-a</a>
+            <a href="slideshow/images/slide4.jpg">morzine-2011-a</a>
         </li>
         <li>
-            <a href="slideshow/images/sunrise1.jpg">morzine-2011-a</a>
+            <a href="slideshow/images/slide6.jpg">morzine-2011-a</a>
         </li>
         <li>
-            <a href="slideshow/images/mooring.jpg">morzine-2011-a</a>
+            <a href="slideshow/images/slide7.jpg">morzine-2011-a</a>
         </li>
         <li>
-            <a href="slideshow/images/geese.jpg">morzine-2011-a</a>
-        </li>
-        <li>
-            <a href="slideshow/images/frozen.jpg">morzine-2011-a</a>
+            <a href="slideshow/images/slide8.jpg">morzine-2011-a</a>
         </li>
     </ol>
      

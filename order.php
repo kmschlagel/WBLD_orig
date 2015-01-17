@@ -15,12 +15,6 @@
 
 
 <div id="main">
-		
-	 <div class="main_photo">
-			<img src="img/lakes/rowboats_small.jpg" alt="boats by dock" width="215" height="161" />
-			<img src="img/lakes/boatsinharbor_small.jpg" alt="boats packing harbor"
-			width="215" height="143" />
-		</div> 
 	
 	<h1>Pricing and Orders</h1>
 	

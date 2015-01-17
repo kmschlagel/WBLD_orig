@@ -14,14 +14,6 @@
 
 
 <div id="main">
-		
-		<div class="main_photo">
-			<img src="img/docks/DockLake2.jpg" alt="dock on water" width="218" height="144" />
-			<img src="img/docks/DockShore1.jpg" alt="dock on water"
-			width="214" height="146" />
-			<img src="img/docks/DockZigZag1.jpg" alt="dock on water"
-			width="215" height="148" />
-		</div> 
 
 	<h1 id="myanchor">Details</h1>
 	

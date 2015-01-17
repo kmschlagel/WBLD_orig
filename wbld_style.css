@@ -19,6 +19,10 @@ body {
 	background-color: #99ccff;
 }
 
+sup {
+    font-size: 11px;
+}
+
 #header, #main, #index_main, #sidenav, #footer {
 	margin-top: 10px;
 	}
