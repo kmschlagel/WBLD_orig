@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.walkadock.com/</loc>
+</url>
+<url>
+  <loc>http://www.walkadock.com/index.php</loc>
+</url>
+<url>
+  <loc>http://www.walkadock.com/docks.php</loc>
+</url>
+<url>
+  <loc>http://www.walkadock.com/details.php</loc>
+</url>
+<url>
+  <loc>http://www.walkadock.com/accessories.php</loc>
+</url>
+<url>
+  <loc>http://www.walkadock.com/instructions.php</loc>
+</url>
+<url>
+  <loc>http://www.walkadock.com/order.php</loc>
+</url>
+<url>
+  <loc>http://www.walkadock.com/services.php</loc>
+</url>
+<url>
+  <loc>http://www.walkadock.com/fabrication.php</loc>
+</url>
+<url>
+  <loc>http://www.walkadock.com/about.php</loc>
+</url>
+<url>
+  <loc>http://www.walkadock.com/contact.php</loc>
+</url>
+<url>
+  <loc>http://www.walkadock.com/tech.php</loc>
+</url>
+<url>
+  <loc>http://www.walkadock.com/development/walking_your_dock.pdf</loc>
+  <lastmod>2012-02-27T00:06:13+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.walkadock.com/development/installation_instructions.pdf</loc>
+  <lastmod>2012-02-27T00:05:47+00:00</lastmod>
+</url>
+</urlset>
