@@ -1,11 +1,23 @@
 <?php
-if (isset($_SESSION['simpleCaptchaAnswer']) && $_POST['captchaSelection'] == $_SESSION['simpleCaptchaAnswer']) {
-    // They're human! Continue processing the rest of the form
 
+session_start();
+require_once('recaptchalib.php');
+$privatekey = "6LdzBwoTAAAAAE4OJKraxTQdnLVKGplmoRx0AfwK";
+$resp = recaptcha_check_answer ($privatekey,
+    $_SERVER["REMOTE_ADDR"],
+    $_POST["recaptcha_challenge_field"],
+    $_POST["recaptcha_response_field"]);
+
+
+if (!$resp->is_valid) {
+    // What happens when the CAPTCHA was entered incorrectly
+    $_SESSION['form'] = $_POST;
+    die ("The reCAPTCHA wasn't entered correctly. Go back and try it again." .
+        "(reCAPTCHA said: " . $resp->error . ")");
+} else {
+    // Your code here to handle a successful verification
     $name = $_POST['name'];
-
-
-    $to = 'walkadock@q.com';
+    $to = 'kmaillette@gmail.com';
     $subject = 'New Customer ';
 
     $message = "Name: $name\n";
@@ -28,8 +40,8 @@ if (isset($_SESSION['simpleCaptchaAnswer']) && $_POST['captchaSelection'] == $_S
         'Reply-To: <' . $_POST['email'] . '> ' . $name . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
-
     mail($to, $subject, $message, $headers);
     header('location: http://www.walkadock.com/thankyou.php');
 }
+
 ?>

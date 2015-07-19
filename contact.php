@@ -14,18 +14,18 @@
                 Facebook</a></p>
         <fieldset>
             <legend>Fill out the following information, and we'll contact you with more details.</legend>
-            <form id="contact" name="contact" action="sendmail.php" method="post" onsubmit="return checkme();">
+            <form id="contact" name="contact" action="sendmail.php" method="post">
                 <p class="tinytext">Your privacy is important to us. The information collected will only be used to
                     contact
                     you and will never be shared with any third party.</p>
                 <ul>
                     <li><label class="tinytext">(* required fields)</label></li>
-                    <li><label for="name">Full Name:*</label><input type="text" size="50" id="name" name="name"/>
+                    <li><label for="name">Full Name:*</label><input value="<?= $_SESSION['form']['name'] ?>" type="text" size="50" id="name" name="name"/>
                     </li>
-                    <li><label for="city">City:</label><input type="text" size="30" id="city" name="city"/>
+                    <li><label for="city">City:</label><input type="text" size="30" id="city" name="city" value="<?= $_SESSION['form']['city'] ?>"/>
                     </li>
                     <li><label for="state">State:</label>
-                        <select name="state" id="state">
+                        <select name="state" id="state" value="<?= $_SESSION['form']['state'] ?>">
                             <option value="none">Choose a State</option>
                             <option value="AL">AL</option>
                             <option value="AK">AK</option>
@@ -79,14 +79,14 @@
                             <option value="WY">WY</option>
                         </select>
                     </li>
-                    <li><label>Phone:<br>(999-999-9999)</label>
-                        <input type="text" maxlength="12" size="12" id="phone" name="phone"/>
+                    <li><label for="phone">Phone:</label>
+                        <input type="text" size="50" id="phone" name="phone" value="<?= $_SESSION['form']['phone'] ?>"/>
                     </li>
-                    <li><label for="email">Email Address:*<br>(johndoe@gmail.com)</label><input type="text" size="50"
+                    <li><label for="email">Email Address:*</label><input type="text" size="50"
                                                                                                 id="email"
-                                                                                                name="email"/>
+                                                                                                name="email" value="<?= $_SESSION['form']['email'] ?>"/>
                     </li>
-                    <li><label>I would information regarding:</label>
+                    <li><label>I would like information regarding:</label>
                         <label for="docks" class="checkbox">Docks</label><input type="checkbox" name="docks" id="docks"
                                                                                 value="yes"/>
                         <label for="boat_lifts" class="checkbox">Boat Lifts</label><input type="checkbox"
@@ -109,9 +109,15 @@
                                                                                 value="yes"/>
                     </li>
                     <li><label for="other_info" class="lbl">Your Message:</label>
-                        <textarea cols="50" rows="10" id="other_info" name="other_info"></textarea>
+                        <textarea cols="50" rows="10" id="other_info" name="other_info" value="<?= $_SESSION['form']['other_info'] ?>"></textarea>
                     </li>
-                    <div id="captcha"></div>
+
+                    <?php
+                    require_once('recaptchalib.php');
+                    $publickey = "6LdzBwoTAAAAAGCpnJJLeq25Eud43ovyURNjIACw";
+                    echo recaptcha_get_html($publickey);
+                    ?>
+
                     <li><label>&nbsp;</label>
                         <input type="submit" value="Submit"/>
                     </li>
@@ -120,10 +126,27 @@
         </fieldset>
     </div> <!-- end of index_main -->
 
-    <script>
-        $('#captcha').simpleCaptcha({
-            refreshButton: "<img src='img/captchaImages/refresh.png' class='refreshButton' alt='Refresh' title='Refresh captcha options' />"
-        });
-    </script>
-
+<script>
+$('#contact').validate({
+    rules: {
+        name: {
+            required: true
+        },
+        email: {
+            required: true,
+            email: true
+        }
+    },
+    messages: {
+        name: "Please specify your full name",
+        email: {
+            required: "We need your phone number to contact you",
+            email: "Your email address must be in the format of name@domain.com"
+        }
+    },
+    submitHandler: function(form) {
+        form.submit();
+    }
+});
+</script>
 <?php include 'footer.php'; ?>

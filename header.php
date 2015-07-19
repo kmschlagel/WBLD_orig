@@ -3,10 +3,8 @@
 <head>
     <title>White Bear Lift and Dock Home</title>
     <link rel="stylesheet" href="fonts/merriweather-fontfacekit/stylesheet.css" type="text/css"/>
-    <link rel="stylesheet" href="jquery.simpleCaptcha.css" type="text/css"/>
     <link rel="stylesheet" href="wbld_style.css" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="validate.js"></script>
     <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-32805123-2']);
@@ -21,17 +19,17 @@
             s.parentNode.insertBefore(ga, s);
         })();
     </script>
-    <script src="jquery.simpleCaptcha.js"></script>
+    <script src="jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
 </head>
 <body>
 <div id="wrapper">
     <div id="header">
         <div id="logo">
-            <a href="index.php"><img src="img/walkadock_logo.jpg" width="206" height="92"/></a>
+            <a href="index.php"><img alt="White Bear Lift & Dock" src="img/walkadock_logo.jpg" width="206" height="92"/></a>
 
             <div id="fb">
                 <a href="http://www.facebook.com/pages/White-Bear-Lift-Dock-Inc/353477108006953" target="blank"><img
-                        src="img/social/facebook.png" alt="facebook logo" width="30" height="29"></img></a>
+                        src="img/social/facebook.png" alt="facebook logo" width="30" height="29"/></a>
             </div>
         </div>
         <!-- end of logo div -->
