@@ -20,6 +20,11 @@
         })();
     </script>
     <script src="jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <script type="text/javascript">
+        var RecaptchaOptions = {
+            theme: 'white'
+        };
+    </script>
 </head>
 <body>
 <div id="wrapper">

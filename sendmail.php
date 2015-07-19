@@ -12,8 +12,7 @@ $resp = recaptcha_check_answer ($privatekey,
 if (!$resp->is_valid) {
     // What happens when the CAPTCHA was entered incorrectly
     $_SESSION['form'] = $_POST;
-    die ("The reCAPTCHA wasn't entered correctly. Go back and try it again." .
-        "(reCAPTCHA said: " . $resp->error . ")");
+    echo '<div id="recaptcha_error_box">The reCAPTCHA failed with this message: ' . $resp->error . '<br />Please try again.</div>';
 } else {
     // Your code here to handle a successful verification
     $name = $_POST['name'];

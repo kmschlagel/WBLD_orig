@@ -20,9 +20,11 @@
                     you and will never be shared with any third party.</p>
                 <ul>
                     <li><label class="tinytext">(* required fields)</label></li>
-                    <li><label for="name">Full Name:*</label><input value="<?= $_SESSION['form']['name'] ?>" type="text" size="50" id="name" name="name"/>
+                    <li><label for="name">Full Name:*</label><input value="<?= $_SESSION['form']['name'] ?>" type="text"
+                                                                    size="50" id="name" name="name"/>
                     </li>
-                    <li><label for="city">City:</label><input type="text" size="30" id="city" name="city" value="<?= $_SESSION['form']['city'] ?>"/>
+                    <li><label for="city">City:</label><input type="text" size="30" id="city" name="city"
+                                                              value="<?= $_SESSION['form']['city'] ?>"/>
                     </li>
                     <li><label for="state">State:</label>
                         <select name="state" id="state" value="<?= $_SESSION['form']['state'] ?>">
@@ -83,8 +85,9 @@
                         <input type="text" size="50" id="phone" name="phone" value="<?= $_SESSION['form']['phone'] ?>"/>
                     </li>
                     <li><label for="email">Email Address:*</label><input type="text" size="50"
-                                                                                                id="email"
-                                                                                                name="email" value="<?= $_SESSION['form']['email'] ?>"/>
+                                                                         id="email"
+                                                                         name="email"
+                                                                         value="<?= $_SESSION['form']['email'] ?>"/>
                     </li>
                     <li><label>I would like information regarding:</label>
                         <label for="docks" class="checkbox">Docks</label><input type="checkbox" name="docks" id="docks"
@@ -109,7 +112,8 @@
                                                                                 value="yes"/>
                     </li>
                     <li><label for="other_info" class="lbl">Your Message:</label>
-                        <textarea cols="50" rows="10" id="other_info" name="other_info" value="<?= $_SESSION['form']['other_info'] ?>"></textarea>
+                        <textarea cols="50" rows="10" id="other_info" name="other_info"
+                                  value="<?= $_SESSION['form']['other_info'] ?>"></textarea>
                     </li>
 
                     <?php
@@ -125,28 +129,27 @@
             </form>
         </fieldset>
     </div> <!-- end of index_main -->
-
-<script>
-$('#contact').validate({
-    rules: {
-        name: {
-            required: true
-        },
-        email: {
-            required: true,
-            email: true
-        }
-    },
-    messages: {
-        name: "Please specify your full name",
-        email: {
-            required: "We need your phone number to contact you",
-            email: "Your email address must be in the format of name@domain.com"
-        }
-    },
-    submitHandler: function(form) {
-        form.submit();
-    }
-});
-</script>
+    <script>
+        $('#contact').validate({
+            rules: {
+                name: {
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true
+                }
+            },
+            messages: {
+                name: "Please specify your full name",
+                email: {
+                    required: "We need your phone number to contact you",
+                    email: "Your email address must be in the format of name@domain.com"
+                }
+            },
+            submitHandler: function (form) {
+                form.submit();
+            }
+        });
+    </script>
 <?php include 'footer.php'; ?>
