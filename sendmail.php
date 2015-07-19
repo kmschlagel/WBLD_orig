@@ -17,7 +17,7 @@ if (!$resp->is_valid) {
 } else {
     // Your code here to handle a successful verification
     $name = $_POST['name'];
-    $to = 'kmaillette@gmail.com';
+    $to = 'walkadock@q.com';
     $subject = 'New Customer ';
 
     $message = "Name: $name\n";

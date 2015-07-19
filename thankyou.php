@@ -29,7 +29,7 @@
 
 <div id="thanks">
 	<h2>Thank you for submitting a form.<br /> We'll contact you regarding your requested information.</h2>
-	<a href = "index.php">continue browsing</a>
+	<a href = "index.php">Back to Home</a>
 </div> <!-- end of thanks div -->	
 
 </div> <!-- end of wrapper -->
