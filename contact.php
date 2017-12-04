@@ -115,13 +115,6 @@
                         <textarea cols="50" rows="10" id="other_info" name="other_info"
                                   value="<?= $_SESSION['form']['other_info'] ?>"></textarea>
                     </li>
-
-                    <?php
-                    require_once('recaptchalib.php');
-                    $publickey = "6LdzBwoTAAAAAGCpnJJLeq25Eud43ovyURNjIACw";
-                    echo recaptcha_get_html($publickey);
-                    ?>
-
                     <li><label>&nbsp;</label>
                         <input type="submit" value="Submit"/>
                     </li>
