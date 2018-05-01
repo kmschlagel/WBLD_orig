@@ -4,12 +4,12 @@
         <h1>Contact Us</h1>
 
         <p>White Bear Lift &amp; Dock Inc.<br>
-            120 Derby Lane <br/>Willernie, MN 55090<br>(651) 653-6476</span></p>
+            1930 Mahtomedi Ave.<br> Mahtomedi, MN 55115<br>(651) 653-6476</span></p>
 
+        <p>Shop address (no mail):<br> 120 Derby Lane<br> Willernie, MN 55090</p>
         <p>Shop tours by appointment only</p>
 
         <p>Email: <a href="mailto:walkadock@q.com">walkadock@q.com</a></p>
-
         <p><a href="http://www.facebook.com/pages/White-Bear-Lift-Dock-Inc/353477108006953" target="blank">Visit us on
                 Facebook</a></p>
         <fieldset>
