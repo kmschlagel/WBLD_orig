@@ -33,7 +33,7 @@
             </div>
         </div>
         <!-- end of logo div -->
-        <div id="slideshow-div" class="rs-slideshow">
+        <!-- <div id="slideshow-div" class="rs-slideshow">
             <div class="slide-container">
                 <img src="slideshow/images/slide5.jpg"
                      alt="Dock on White Bear Lake"/>
@@ -61,7 +61,7 @@
                     <a href="slideshow/images/slide8.jpg">morzine-2011-a</a>
                 </li>
             </ol>
-        </div>
+        </div> -->
         <!-- end slideshow -->
         <div id="nav">
             <p>(651) 653-6476</p>

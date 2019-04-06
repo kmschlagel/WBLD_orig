@@ -10,13 +10,13 @@
     <img src="img/docks/free.gif" alt="free deliver in metro area"/>
 </div> <!-- end of side_nav -->
 <div id="main">
-    <div class="main_photo">
+    <!-- <div class="main_photo">
         <img src="img/docks/DockLake2_small.jpg" alt="dock on water" width="218" height="144"/>
         <img src="img/docks/DockShore1.jpg" alt="dock on water"
              width="214" height="146"/>
         <img src="img/docks/DockZigZag1.jpg" alt="dock on water"
              width="215" height="148"/>
-    </div>
+    </div> -->
     <h1>Walk A Dock</h1>
 
     <p>Walk A Dock<sup>&copy;</sup> is a modular dock system with countless possible configurations and customizability. The large
@@ -26,6 +26,8 @@
     <p>We also sell other brands of docks and boat lifts. If Walk A Dock<sup>&copy;</sup> does not fit your needs, we'll find
         something that will. <a href="contact.php">Contact us</a> for more information regarding other docks and lifts.
     </p>
+
+    <img src="img/docks/2019/homedock-5.jpg" width="600"/>
 
     <h3>Features</h3>
     <ul>

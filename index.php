@@ -1,10 +1,10 @@
 <?php include 'header.php'; ?>
 
 <div id="index_main">
-    <div class="main_photo">
+    <!-- <div class="main_photo">
         <img src="img/docks/dock1.jpg" alt="Dock on White Bear Lake1" width="347" height="239"/>
         <img src="img/docks/dock2.jpg" width="347" height="239" alt="Dock on White Bear Lake 2"/>
-    </div>
+    </div> -->
     <!-- end of main_photo div -->
     <h1>Welcome!</h1>
 
@@ -26,6 +26,13 @@
 
     <p><a href="contact.php">Contact us</a> for more information regarding products and services. We look forward to
         working with you!</p>
+
+    <div id="index-photo-wrapper">
+    <img src="img/docks/2019/titan-1.jpg" width="700" alt="Dock with Titan decking"/>
+    <img src="img/docks/2019/homedock-1.jpg" width="700" alt="Dock with cedar decking"/>
+    <img src="img/docks/2019/homedock-3.jpg" width="700"/>
+    <img src="img/docks/2019/homedock-4.jpg" width="700"/>
+    </div>
 </div> <!-- end of index_main -->
 
 <?php include 'footer.php'; ?>

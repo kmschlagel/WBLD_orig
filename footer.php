@@ -6,12 +6,6 @@
 		<li><a href="http://www.dnr.state.mn.us/lsp/index.html" target="blank" >DNR Permit</a></li>
         <li><a href="sitemap.xml">Site Map</a></li>
 		</ul>
-
-	
-	
-	<div id="webmaster">
-	<p class="tinytext">Contact Kate Schlagel for questions about the website: <a href="mailto:kmaillette@gmail.com" class="tinytext" > kmaillette@gmail.com</a></p>
-	</div> <!--end webmaster div-->
     
 </div> <!-- end of footer -->
 

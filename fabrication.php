@@ -4,8 +4,6 @@
 <div id="index_main">
 
 <div class="main_photo">
-			<img src="img/welding/Welder3.jpg" width="300" height="312"/>
-			<img src="img/welding/Welding1.jpg" width="275" height="318"/>
 			<img src="img/welding/welding3_small.jpg" width="245" height="282"/>
 </div> <!-- end of main_photo div -->
 

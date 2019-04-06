@@ -15,9 +15,8 @@ html, body {
 }
 
 body {
-    background-image: url(img/lakes/water3.jpg);
     background-repeat: repeat;
-    background-color: #99ccff;
+    background-color: #e6f2ff;
 }
 
 sup {
@@ -29,8 +28,8 @@ sup {
 }
 
 #wrapper {
-    background-image: url(img/wood/boards.jpg);
-    background-repeat: repeat-y;
+    background: #ffffff;
+    border: solid 1px #333333;
     width: 800px;
     min-height: 1000px;
     margin: 0px auto;
@@ -41,13 +40,10 @@ sup {
 
 #header {
     width: 800px;
-    min-height: 280px;
-    /*border: 1px solid black;*/
-
+    /* min-height: 280px; */
 }
 
 #header #logo {
-    /*order: 1px solid red;*/
     padding-top: 5px;
     position: relative;
 
@@ -55,23 +51,19 @@ sup {
 
 #header #logo #fb {
     position: absolute;
-    right: 10px;
+    right: 0px;
     bottom: 5px;
-    /*border: 1px solid blue;*/
 
 }
 
 #slideshow-div {
-    /*border: 1px solid blue;*/
     width: 100%;
     min-height: 177px;
     position: relative;
 }
 
 .rs-slideshow {
-    /*border: 12px solid #444;*/
     height: 200px;
-    /*margin: 24px auto;*/
     overflow: hidden;
     position: relative;
     width: 800px;
@@ -103,7 +95,6 @@ PRIMARY NAVIGATION
     margin: 0px;
     padding-top: 5px;
     height: 25px;
-    /*border: 1px solid blue;*/
     width: 100%;
     float: right;
     background-color: #666;
@@ -125,35 +116,30 @@ PRIMARY NAVIGATION
 }
 
 #nav ul {
-    /*border: 1px solid red;*/
     float: right;
 }
 
 #nav ul li {
     margin-right: 30px;
     font-family: Verdana, Arial, sans-serif;
-    /*border: 1px solid blue;*/
     float: left;
     list-style-type: none;
     position: relative;
-
 }
 
 #nav ul li:hover ul {
     display: block;
-
 }
 
 #nav li ul {
-    /*border: 1px solid green;*/
     position: absolute;
     width: 120px;
+    top: 24px;
     display: none;
     background-color: #333;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-
 }
 
 #nav li ul li {
@@ -170,14 +156,11 @@ PRIMARY NAVIGATION
 
 #nav ul li a:visited {
     color: #fff;
-
 }
 
 #nav ul li a:hover {
     color: #99ccff;
-    /*background-color: #333;*/
     display: block;
-
 }
 
 #nav ul li a:active {
@@ -199,9 +182,6 @@ HOME PAGE MAIN DIV
     margin-top: 40px;
     padding-bottom: 40px;
     background-color: rgba(255, 255, 255, 0.8);
-    /*-webkit-box-shadow: 0px 5px 5px 5px #333;
--moz-box-shadow: 0px 5px 5px 5px #333;
-box-shadow: 0px 5px 5px 5px #333;*/
 
 }
 
@@ -209,7 +189,6 @@ box-shadow: 0px 5px 5px 5px #333;*/
     width: 350px;
     height: 600px;
     float: right;
-    /*border: 1px solid blue;*/
     margin-top: 85px;
     padding-left: 20px;
     padding-right: 15px;
@@ -249,14 +228,11 @@ box-shadow: 0px 5px 5px 5px #333;*/
 #index_main h1 {
     color: #006699;
     font-family: Verdana, Arial, sans-serif;
-    padding-top: 35px;
-    padding-left: 24px;
 }
 
 #index_main h2 {
     color: #333;
     font-family: Verdana, Arial, sans-serif;
-    padding-left: 24px;
     margin-top: 20px;
     text-decoration: underline;
 }
@@ -265,7 +241,6 @@ box-shadow: 0px 5px 5px 5px #333;*/
     color: #333;
     font-family: Verdana, Arial, sans-serif;
     padding-top: 12px;
-    padding-left: 24px;
     padding-right: 24px;
 
 }
@@ -274,7 +249,6 @@ box-shadow: 0px 5px 5px 5px #333;*/
     color: #006699;
     font-family: Verdana, Arial, sans-serif;
     padding-top: 20px;
-    padding-left: 24px;
 }
 
 #index_main ul {
@@ -298,6 +272,17 @@ box-shadow: 0px 5px 5px 5px #333;*/
     font-size: 90%;
 }
 
+#index-photo-wrapper {
+    margin: 20px auto;
+    width: 600px;
+}
+
+#index-photo-wrapper img {
+    margin: 20px 0;
+    display: block;
+    border: solid 1px #999;
+}
+
 /***********************
 LEFT NAVIGATION 
 **********************/
@@ -308,10 +293,6 @@ LEFT NAVIGATION
     float: left;
     background-color: #fff;
     background-color: rgba(255, 255, 255, 0.8);
-
-    /*-webkit-box-shadow: 0px 5px 5px 5px #333;
--moz-box-shadow: 0px 5px 5px 5px #333;
-box-shadow: 0px 5px 5px 5px #333;*/
 }
 
 #sidenav h3 {
@@ -322,13 +303,11 @@ box-shadow: 0px 5px 5px 5px #333;*/
 }
 
 #sidenav img {
-    margin-left: 18px;
+    margin-left: 13px;
 }
 
 #buttons {
     margin-top: 15px;
-    margin-left: 12px;
-
 }
 
 #buttons li {
@@ -342,7 +321,7 @@ box-shadow: 0px 5px 5px 5px #333;*/
     text-decoration: none;
     text-align: center;
     display: block;
-    width: 132px;
+    width: 150px;
     border: 2px inset #cccccc;
     padding: 4px 5px;
     font-weight: bold;
@@ -351,7 +330,6 @@ box-shadow: 0px 5px 5px 5px #333;*/
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-
 }
 
 #buttons li a:visited {
@@ -385,10 +363,6 @@ MAIN DIV FOR ALL OTHER PAGES
     padding-left: 24px;
     padding-bottom: 40px;
     border-left: 1px solid #999;
-    /*-webkit-box-shadow: 0px 5px 5px 5px #333;
--moz-box-shadow: 0px 5px 5px 5px #333;
-box-shadow: 0px 5px 5px 5px #333;*/
-
 }
 
 #main h1 {
@@ -433,7 +407,6 @@ box-shadow: 0px 5px 5px 5px #333;*/
 #main .main_photo {
     width: 220px;
     float: right;
-    /*border: 1px solid black;*/
     margin-top: 65px;
     padding-left: 15px;
     padding-right: 15px;
@@ -451,7 +424,6 @@ box-shadow: 0px 5px 5px 5px #333;*/
 }
 
 #main #accessories ul {
-    /*border: 1px solid black;*/
     width: 600px;
 
 }
@@ -461,7 +433,6 @@ box-shadow: 0px 5px 5px 5px #333;*/
     height: 315px;
     float: left;
     margin-top: 20px;
-    /*border: 1px solid red;*/
     margin-right: 35px;
 
 }
@@ -502,6 +473,17 @@ p a:active {
 
 }
 
+#details-photo-wrapper {
+    width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img.rotated {
+    transform: rotate(90deg) translateX(45px);
+}
+
 /********************
 CONTACT FORM
 *****************/
@@ -509,9 +491,7 @@ CONTACT FORM
     color: #333;
     font-family: Verdana, Arial, sans-serif;
     padding-top: 8px;
-    padding-left: 24px;
-    padding-right: 24px;
-    /*border: solid 1px orange;*/
+    padding-right: 25px;
 
 }
 
@@ -522,21 +502,16 @@ CONTACT FORM
     background-color: rgba(255, 255, 255, 0.8);
     margin-top: 40px;
     padding-bottom: 40px;
-    /*-webkit-box-shadow: 0px 5px 5px 5px #333;
--moz-box-shadow: 0px 5px 5px 5px #333;
-box-shadow: 0px 5px 5px 5px #333;*/
 }
 
 #form h1 {
     color: #006699;
     font-family: Verdana, Arial, sans-serif;
-    padding-top: 35px;
-    margin-left: 24px;
-    /*border: solid 1px red;*/
 }
 
 #form fieldset {
-    width: 700px;
+    width: 750px;
+    padding: 0 20px;
     margin: 25px auto 25px;
     border: 1px solid black;
 }
@@ -559,7 +534,6 @@ box-shadow: 0px 5px 5px 5px #333;*/
 #form fieldset label {
     width: 200px;
     display: inline-block;
-    /*labels are inline objects.  To maniupulate a label, make sure you change it to inline-block, like an image*/
     font-family: Verdana, Arial, sans-serif;
     color: #333;
     font-size: 90%;
@@ -604,7 +578,7 @@ div#recaptcha_widget_div {
 #footer {
     width: 100%;
     clear: both;
-    min-height: 50px;
+    min-height: 30px;
     background-color: #666;
     background-color: rgba(50, 50, 50, 0.8);
     position: relative;
@@ -612,7 +586,7 @@ div#recaptcha_widget_div {
 
 #footer ul {
     position: absolute;
-    top: 6px;
+    top: 8px;
     left: 245px;
 
 }
@@ -644,17 +618,6 @@ div#recaptcha_widget_div {
     color: #006699;
 }
 
-/*#social {
-	position: absolute;
-	top: 20px;
-	left: 354px;
-}
-
-#social img {
-	float: left;
-	padding: 5px;
-}*/
-
 /***********
 THANK YOU PAGE
 ************/
@@ -672,7 +635,6 @@ THANK YOU PAGE
 
 #thanks {
     width: 700px;
-    /*border: 1px solid red;*/
     min-height: 50px;
     background-color: #666;
     background-color: rgba(50, 50, 50, 0.8);
