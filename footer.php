@@ -4,7 +4,7 @@
 		<li><a href="contact.php" >Contact</a></li>
 		<li><a href="about.php" >About</a></li>
 		<li><a href="http://www.dnr.state.mn.us/lsp/index.html" target="blank" >DNR Permit</a></li>
-        <li><a href="sitemap.xml">Site Map</a></li>
+        <!-- <li><a href="sitemap.xml">Site Map</a></li> -->
 		</ul>
     
 </div> <!-- end of footer -->
