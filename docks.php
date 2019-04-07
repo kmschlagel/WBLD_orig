@@ -27,7 +27,7 @@
         something that will. <a href="contact.php">Contact us</a> for more information regarding other docks and lifts.
     </p>
 
-    <img src="img/docks/2019/homedock-5.jpg" width="600"/>
+    <img src="img/docks/2019/homedock-5.jpg" width="600" style="margin: 10px 0;"/>
 
     <h3>Features</h3>
     <ul>

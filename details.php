@@ -41,7 +41,7 @@
 
         <div id="details-photo-wrapper">
             <img src="img/docks/2019/titandecking-1.jpg" width="364" class="rotated"/>
-            <img src="img/docks/2019/cedardecking-1.jpg"/>
+            <img src="img/docks/2019/cedardecking-1.jpg" class="second-img"/>
         </div>
 
         <!-- <p><a href="tech.php">>> Technical specifications</a></p> -->

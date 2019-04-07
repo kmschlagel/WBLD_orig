@@ -15,8 +15,7 @@ html, body {
 }
 
 body {
-    background-repeat: repeat;
-    background-color: #e6f2ff;
+    background-color: #006699;
 }
 
 sup {
@@ -29,13 +28,13 @@ sup {
 
 #wrapper {
     background: #ffffff;
-    border: solid 1px #333333;
+    border: solid 2px #666;
     width: 800px;
-    min-height: 1000px;
+    min-height: 800px;
     margin: 0px auto;
     padding-left: 50px;
     padding-right: 50px;
-
+    position: relative;
 }
 
 #header {
@@ -52,7 +51,7 @@ sup {
 #header #logo #fb {
     position: absolute;
     right: 0px;
-    bottom: 5px;
+    bottom: 0px;
 
 }
 
@@ -93,8 +92,7 @@ PRIMARY NAVIGATION
 ********************/
 #nav {
     margin: 0px;
-    padding-top: 5px;
-    height: 25px;
+    height: 35px;
     width: 100%;
     float: right;
     background-color: #666;
@@ -107,6 +105,7 @@ PRIMARY NAVIGATION
     float: left;
     margin-left: 20px;
     color: #fff;
+    margin: 8px 0 0 10px;
 }
 
 #nav a {
@@ -117,6 +116,7 @@ PRIMARY NAVIGATION
 
 #nav ul {
     float: right;
+    margin: 8px 0 0 0;
 }
 
 #nav ul li {
@@ -134,7 +134,7 @@ PRIMARY NAVIGATION
 #nav li ul {
     position: absolute;
     width: 120px;
-    top: 24px;
+    top: 18px;
     display: none;
     background-color: #333;
     -webkit-border-radius: 3px;
@@ -177,7 +177,7 @@ HOME PAGE MAIN DIV
 
 #index_main {
     width: 100%;
-    min-height: 1100px;
+    min-height: 300px;
     background-color: #fff;
     margin-top: 40px;
     padding-bottom: 40px;
@@ -193,7 +193,6 @@ HOME PAGE MAIN DIV
     padding-left: 20px;
     padding-right: 15px;
     padding-bottom: 20px;
-
 }
 
 #index_main .main_photo img {
@@ -205,13 +204,15 @@ HOME PAGE MAIN DIV
     -webkit-box-shadow: 0px 3px 3px 3px #333;
     -moz-box-shadow: 0px 3px 3px 3px #333;
     box-shadow: 0px 3px 3px 3px #333;
+}
 
+#index_main .main_photo img.fabrication {
+    margin: -25px 0 0 30px;
 }
 
 #announce h3 a:link {
     color: #006699;
     text-decoration: none;
-
 }
 
 #announce h3 a:visited {
@@ -228,6 +229,7 @@ HOME PAGE MAIN DIV
 #index_main h1 {
     color: #006699;
     font-family: Verdana, Arial, sans-serif;
+    padding: 10px 0 0 0;
 }
 
 #index_main h2 {
@@ -273,12 +275,12 @@ HOME PAGE MAIN DIV
 }
 
 #index-photo-wrapper {
-    margin: 20px auto;
-    width: 600px;
+    margin: 30px auto;
+    width: 700px;
 }
 
 #index-photo-wrapper img {
-    margin: 20px 0;
+    margin: 30px 0;
     display: block;
     border: solid 1px #999;
 }
@@ -291,8 +293,6 @@ LEFT NAVIGATION
     width: 165px;
     min-height: 280px;
     float: left;
-    background-color: #fff;
-    background-color: rgba(255, 255, 255, 0.8);
 }
 
 #sidenav h3 {
@@ -355,11 +355,9 @@ MAIN DIV FOR ALL OTHER PAGES
 
 #main {
     width: 600px;
-    min-height: 600px;
+    min-height: 500px;
     margin-left: 175px;
-    margin-top: 40px;
-    background-color: #fff;
-    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 60px;
     padding-left: 24px;
     padding-bottom: 40px;
     border-left: 1px solid #999;
@@ -368,7 +366,6 @@ MAIN DIV FOR ALL OTHER PAGES
 #main h1 {
     color: #006699;
     font-family: Verdana, Arial, sans-serif;
-    padding-top: 20px;
 }
 
 #main h2 {
@@ -398,10 +395,7 @@ MAIN DIV FOR ALL OTHER PAGES
 #main p {
     color: #333;
     font-family: Verdana, Arial, sans-serif;
-    padding-top: 8px;
-    padding-bottom: 5px;
-    width: 550px;
-
+    padding: 8px 0;
 }
 
 #main .main_photo {
@@ -444,8 +438,6 @@ MAIN DIV FOR ALL OTHER PAGES
 
 #main #other_accessories {
     clear: both;
-    padding-top: 40px;
-
 }
 
 p a {
@@ -456,32 +448,30 @@ p a {
 
 p a:link {
     color: #006699;
-
 }
 
 p a:visited {
     color: #006699;
-
 }
 
-p a:hover {
-    color: #33cccc;
-}
-
-p a:active {
+p a:active, p a:hover {
     color: #6699ff;
-
 }
 
 #details-photo-wrapper {
     width: 600px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    margin: 20px 0 0 0;
+    position: relative;
 }
 
 img.rotated {
-    transform: rotate(90deg) translateX(45px);
+    transform: rotate(90deg) translateX(45px) translateY(45px);
+}
+
+#details-photo-wrapper img.second-img {
+    position: absolute;
+    right: 80px;
 }
 
 /********************
@@ -507,6 +497,7 @@ CONTACT FORM
 #form h1 {
     color: #006699;
     font-family: Verdana, Arial, sans-serif;
+    padding: 10px 0 0 0;
 }
 
 #form fieldset {
@@ -580,8 +571,9 @@ div#recaptcha_widget_div {
     clear: both;
     min-height: 30px;
     background-color: #666;
-    background-color: rgba(50, 50, 50, 0.8);
-    position: relative;
+    position: absolute;
+    bottom:0;
+    left: 0;
 }
 
 #footer ul {
@@ -628,8 +620,8 @@ THANK YOU PAGE
     width: 800px;
     min-height: 600px;
     margin: 0px auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 100px;
 }
 
