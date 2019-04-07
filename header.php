@@ -66,7 +66,8 @@
         <div id="nav">
             <p>(651) 653-6476</p>
             <ul>
-                <li><a href="docks.php">Docks</a>
+                <li style="height: 30px;">
+                    <a href="docks.php">Docks</a>
                     <ul>
                         <li><a href="details.php">Details</a></li>
                         <li><a href="accessories.php">Accessories</a></li>

@@ -14,7 +14,7 @@
 
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="slideshow/js/jquery.rs.slideshow.js"></script>
-<script type="text/javascript" src="slideshow/js/bootstrap.js"></script>
+<!-- <script type="text/javascript" src="slideshow/js/jquery.rs.slideshow.js"></script> -->
+<!-- <script type="text/javascript" src="slideshow/js/bootstrap.js"></script> -->
 </body>
 </html>
