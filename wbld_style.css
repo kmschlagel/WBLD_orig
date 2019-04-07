@@ -613,23 +613,23 @@ THANK YOU PAGE
 ************/
 
 #wrapper_thanks {
-    background-image: url(img/wood/boards.jpg);
-    background-repeat: repeat-y;
+    background: #ffffff;
+    border: solid 2px #666;
     width: 800px;
     min-height: 600px;
     margin: 0px auto;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 100px;
+    position: relative;
 }
 
 #thanks {
     width: 700px;
-    min-height: 50px;
     background-color: #666;
     background-color: rgba(50, 50, 50, 0.8);
     margin: 0 auto;
-
+    padding: 10px;
 }
 
 #thanks h2 {
