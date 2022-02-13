@@ -136,7 +136,7 @@
             messages: {
                 name: "Please specify your full name",
                 email: {
-                    required: "We need your phone number to contact you",
+                    required: "We need your email address to contact you",
                     email: "Your email address must be in the format of name@domain.com"
                 }
             },
