@@ -19,7 +19,7 @@
             s.parentNode.insertBefore(ga, s);
         })();
     </script>
-    <script src="jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <script src="jquery-validation-1.19.3/dist/jquery.validate.min.js"></script>
 </head>
 <body>
 <div id="wrapper">

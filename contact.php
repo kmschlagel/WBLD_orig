@@ -9,7 +9,7 @@
         <p>Shop address (no mail):<br> 120 Derby Lane<br> Willernie, MN 55090</p>
         <p>Shop tours by appointment only</p>
 
-        <p>Email: <a href="mailto:walkadock@q.com">walkadock@q.com</a></p>
+        <p>Email: <a href="mailto:wbld@walkadock.com">wbld@walkadock.com</a></p>
         <p><a href="http://www.facebook.com/pages/White-Bear-Lift-Dock-Inc/353477108006953" target="blank">Visit us on
                 Facebook</a></p>
         <fieldset>

@@ -2,7 +2,7 @@
 
 session_start();
 $name = $_POST['name'];
-$to = 'walkadock@q.com';
+$to = 'wbld@walkadock.com';
 $subject = 'New Customer ';
 
 $message = "Name: $name\n";
